@@ -7,6 +7,8 @@ Some examples on how to use the project
 ### C++
 Code example for C++
 
+To support the unofficial HTTP Codes uncomment `//#define UNOFFICIAL_HTTP_CODES` in `http-to-string.hpp`
+
 ```CPP
 // Include the header
 #include http-to-string.hpp
