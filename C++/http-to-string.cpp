@@ -277,7 +277,7 @@ std::string HTTPToString::httpCodeFull(uint16_t httpCode)
         case 301:
             return HTTPToString::httpCode(httpCode) + ": This and all future requests should be directed to the given URI.";
         case 302:
-            return HTTPToString::httpCode(httpCode) + ": This is an example of industry practice contradicting the standard. The HTTP/1.0 specification (RFC 1945) required the client to perform a temporary redirect (the original describing phrase was "Moved Temporarily"), but popular browsers implemented 302 with the functionality of a 303 See Other. Therefore, HTTP/1.1 added status codes 303 and 307 to distinguish between the two behaviours. However, some Web applications and frameworks use the 302 status code as if it were the 303.";
+            return HTTPToString::httpCode(httpCode) + ": This is an example of industry practice contradicting the standard. The HTTP/1.0 specification (RFC 1945) required the client to perform a temporary redirect (the original describing phrase was \"Moved Temporarily\"), but popular browsers implemented 302 with the functionality of a 303 See Other. Therefore, HTTP/1.1 added status codes 303 and 307 to distinguish between the two behaviours. However, some Web applications and frameworks use the 302 status code as if it were the 303.";
         case 303:
             return HTTPToString::httpCode(httpCode) + ": The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.";
         case 304:
