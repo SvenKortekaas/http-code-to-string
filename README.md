@@ -1,4 +1,4 @@
-# http-code-to-string | [![Code Climate](https://codeclimate.com/github/SvenKortekaas/http-code-to-string/badges/gpa.svg)](https://codeclimate.com/github/SvenKortekaas/http-code-to-string) [![Issue Count](https://codeclimate.com/github/SvenKortekaas/http-code-to-string/badges/issue_count.svg)](https://codeclimate.com/github/SvenKortekaas/http-code-to-string) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+# http-code-to-string | [![Build Status](https://travis-ci.org/SvenKortekaas/http-code-to-string.svg?branch=master)](https://travis-ci.org/SvenKortekaas/http-code-to-string) [![Code Climate](https://codeclimate.com/github/SvenKortekaas/http-code-to-string/badges/gpa.svg)](https://codeclimate.com/github/SvenKortekaas/http-code-to-string) [![Issue Count](https://codeclimate.com/github/SvenKortekaas/http-code-to-string/badges/issue_count.svg)](https://codeclimate.com/github/SvenKortekaas/http-code-to-string) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 Returning the HTTP code to a full string with explanation in different coding languages.
 
 ## How to use
