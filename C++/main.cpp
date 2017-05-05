@@ -38,8 +38,8 @@ using namespace std;
 
 main()
 {
-    cout << HTTPToString::httpCode(200) << endl;
-    cout << HTTPToString::httpCodeFull(100) << endl;
+    cout << "[200] " << HTTPToString::httpCode(200)     << endl;
+    cout << "200: "  << HTTPToString::httpCodeFull(200) << endl;
     
     return 0;
 }
